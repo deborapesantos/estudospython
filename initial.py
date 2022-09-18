@@ -29,11 +29,22 @@ else:
 media = float(input("informe a media: "))
 
 if media >= 7:
-  print("Aprovado")
+  print("Aprovada")
 elif media >= 5:
   print("Recuperacao")
 else:
-  print("Reprovado")
+  print("Reprovada")
+
+#comparação conjunta
+media = 10
+presenca = 100
+
+if media >= 7 and presenca >= 70: # && is AND e || is OR
+    print("aprovada")
+    print("Parabéns")
+else:
+    print("reprovada")
+    
 
     
 
