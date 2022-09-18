@@ -1,8 +1,8 @@
-
-idade= 26
-altura=1.57
-nome="Debora"
-brasileira=True
+#variaveis
+idade= 26 #int
+altura=1.57 #float
+nome="Debora" #str
+brasileira=True #bool
 
 print(idade,altura,nome,brasileira)
 
@@ -17,7 +17,25 @@ bloco de comentário em python
 print(f"seu nome é {nomeusuario}")
 
 
+#condicionais
+age = 20
 
+if age >= 18:
+    print("Você é maior de idade")
+else:
+    print("Você é menor de idade")
+    
+# else if
+media = float(input("informe a media: "))
+
+if media >= 7:
+  print("Aprovado")
+elif media >= 5:
+  print("Recuperacao")
+else:
+  print("Reprovado")
+
+    
 
 
 
